@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.headerContainer, .headerLeft, .heroImage, .headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+p {
+  color: black;
+  text-shadow: none;
+}
+
+
+
+.arrow{
+  background-color: transparent;
+}
+
+.headerContainer {
+border-bottom: 5px solid white;
+border-radius: 10px;
+padding-bottom: 5rem;
+}
+
+
+.signupButton button, .exploreButton {
+  padding: 10px 20px; 
+  border: none;
+  background-color: #6181a3; 
+  color: #fff; 
+  border-radius: 5px; 
+  cursor: pointer;
+  margin:10px;
+}
+
+.signupButton .button:hover {
+  background-color: rgb(216, 165, 213); 
+}
+
+.exploreButton:hover {
+  background-color: rgb(216, 165, 213); 
+} 
+.button:hover {
+  background-color: rgb(216, 165, 213); 
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  padding-bottom: 5%;
+}
+
+.attractionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid grey;
+   width: 100%;
+  padding: 5rem;
+  margin-bottom: 10rem;
+}
+
+.actvityContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid grey;
+   width: 100%;
+  padding: 5rem;
+  margin-bottom: 10rem;
+  width: 100%;
+}
+
+*{
+  background-color: #AFC6E2;
+}
+
+.headerImage img {
+  margin-right: 2rem; 
+}
+
+.menuButton img {
+  margin-left: 2rem ; 
+}
+
+.mainContent {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white;
+  text-shadow: rgb(33, 33, 31) 1px 0 10px;
+}
+
+.mainOutdoorContainer {
+  border: 4px solid white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;  
+}
+
+.arrow{
+  background-color: transparent;
+}
+
+.attraction-container {
+  border: 5px solid white;
+  padding: 30px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 20px solid blue;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out; 
+ 
+}
+
+.attraction-container:hover {
+  transform: scale(1.1);
+}
+
+.icon{
+  padding: 1rem;
+}
+
+.buttonHover {
+  transition: transform 0.3s ease; 
+}
+
+.buttonHover:hover {
+  transform: scale(1.1); 
+} 
+
+.para {
+  padding-top: 2rem;
+}
+
+.mainContentSection {
+
+  display: flex;
+  justify-content:space-around; 
+  align-items: center; 
+  margin: 0 20px;
+  padding: 5rem;
+}
+
+.sectionLeft,
+.sectionRight {
+  flex: 1;
+}
+
+.sectionRight {
+  padding-left: 30rem;
+}
+
+.sectionImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text{
+  padding: 2rem;
+  border: 2px solid grey;
+}
